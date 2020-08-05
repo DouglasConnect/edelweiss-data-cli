@@ -1,0 +1,15 @@
+{
+  "name": "edelweiss-data-cli",
+  "version": "0.1.0-alpha.0",
+  "description": "A CLI tool for Edelweiss Data",
+  "repository": "https://github.com/DouglasConnect/edelweiss-data-cli.git",
+  "author": "Ian Streeter <ian@edelweissconnect.com>",
+  "license": "MIT",
+  "bin": {
+    "edelweiss": "./src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.4.1"
+  }
+}
